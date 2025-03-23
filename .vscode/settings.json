@@ -1,0 +1,9 @@
+{
+  "deno.enable": true,
+  // ArkTypeの "string | num" というような記述でオートコンプリートが有効になる
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  // ArkTypeの型 "type" を優先的に自動importする
+  "typescript.preferences.autoImportSpecifierExcludeRegexes": ["^(node:)?os$"]
+}

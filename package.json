@@ -1,0 +1,28 @@
+{
+  "name": "arktype-demo",
+  "version": "1.0.0",
+  "description": "ArkType demo for number sequence validation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "compose": "ts-node src/compose.ts",
+    "number": "ts-node src/numberSequence.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "arktype",
+    "typescript",
+    "validation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arktype": "^1.0.14-alpha"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
